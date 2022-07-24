@@ -1,0 +1,23 @@
+# Libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Metadata
+*.aliases
+*.lvlps
+.cache/
+.DS_Store
+
+# Deplyoment binaries/files
+distribution/vipm/*.vip
+distribution/working/*
+source/data/bin/*.*
