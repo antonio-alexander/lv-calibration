@@ -18,12 +18,13 @@
 		<Item Name="_test" Type="Folder" URL="../_test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="data" Type="Folder" URL="../data">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="lv-calibration.lvlib" Type="Library" URL="../lv-calibration/lv-calibration.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="configuration.ctl" Type="VI" URL="/&lt;userlib&gt;/antonio-alexander/lv-calibration/public/_controls/configuration.ctl"/>
 				<Item Name="lv-graph.lvlib" Type="Library" URL="/&lt;userlib&gt;/antonio-alexander/lv-graph/lv-graph.lvlib"/>
-				<Item Name="point.ctl" Type="VI" URL="/&lt;userlib&gt;/antonio-alexander/lv-calibration/public/_controls/point.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

@@ -11,8 +11,9 @@
 		<Item Name="_subvis" Type="Folder">
 			<Item Name="x_y_from_graph.vi" Type="VI" URL="../examples/_subvis/x_y_from_graph.vi"/>
 		</Item>
-		<Item Name="example_01_calibration.vi" Type="VI" URL="../examples/example_01_calibration.vi"/>
+		<Item Name="example_01_raw_to_calibrated.vi" Type="VI" URL="../examples/example_01_raw_to_calibrated.vi"/>
 		<Item Name="example_02_visualization.vi" Type="VI" URL="../examples/example_02_visualization.vi"/>
+		<Item Name="example_03_calibrated_to_raw.vi" Type="VI" URL="../examples/example_03_calibrated_to_raw.vi"/>
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -24,16 +25,18 @@
 			<Item Name="type.ctl" Type="VI" URL="../public/_controls/type.ctl"/>
 		</Item>
 		<Item Name="_subvis" Type="Folder">
-			<Item Name="advanced" Type="Folder">
-				<Item Name="raw_to_calibrated-array.vi" Type="VI" URL="../public/_subvis/advanced/raw_to_calibrated-array.vi"/>
-				<Item Name="raw_to_calibrated-scalar.vi" Type="VI" URL="../public/_subvis/advanced/raw_to_calibrated-scalar.vi"/>
-				<Item Name="raw_to_calibrated_configuration-array.vi" Type="VI" URL="../public/_subvis/advanced/raw_to_calibrated_configuration-array.vi"/>
-				<Item Name="raw_to_calibrated_configuration-scalar.vi" Type="VI" URL="../public/_subvis/advanced/raw_to_calibrated_configuration-scalar.vi"/>
-			</Item>
 			<Item Name="configuration_to_runtime.vi" Type="VI" URL="../public/_subvis/configuration_to_runtime.vi"/>
 			<Item Name="error.vi" Type="VI" URL="../public/_subvis/error.vi"/>
 			<Item Name="search.vi" Type="VI" URL="../public/_subvis/search.vi"/>
 		</Item>
+		<Item Name="advanced" Type="Folder">
+			<Item Name="calibrated_to_raw-scalar.vi" Type="VI" URL="../public/advanced/calibrated_to_raw-scalar.vi"/>
+			<Item Name="raw_to_calibrated-array.vi" Type="VI" URL="../public/advanced/raw_to_calibrated-array.vi"/>
+			<Item Name="raw_to_calibrated-scalar.vi" Type="VI" URL="../public/advanced/raw_to_calibrated-scalar.vi"/>
+			<Item Name="raw_to_calibrated_configuration-array.vi" Type="VI" URL="../public/advanced/raw_to_calibrated_configuration-array.vi"/>
+			<Item Name="raw_to_calibrated_configuration-scalar.vi" Type="VI" URL="../public/advanced/raw_to_calibrated_configuration-scalar.vi"/>
+		</Item>
+		<Item Name="calibrated_to_raw.vi" Type="VI" URL="../public/calibrated_to_raw.vi"/>
 		<Item Name="initialize.vi" Type="VI" URL="../public/initialize.vi"/>
 		<Item Name="raw_to_calibrated.vi" Type="VI" URL="../public/raw_to_calibrated.vi"/>
 		<Item Name="read_tag_calibration.vi" Type="VI" URL="../public/read_tag_calibration.vi"/>
